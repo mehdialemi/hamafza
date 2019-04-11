@@ -1,0 +1,22 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "ir.co.realtime.disaster.register.captcha.CaptchaSettings",
+      "name": "google.recaptcha.key",
+      "type": "ir.co.realtime.disaster.register.captcha.CaptchaSettings"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "ir.co.realtime.disaster.register.captcha.CaptchaSettings",
+      "name": "google.recaptcha.key.secret",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "ir.co.realtime.disaster.register.captcha.CaptchaSettings",
+      "name": "google.recaptcha.key.site",
+      "type": "java.lang.String"
+    }
+  ]
+}

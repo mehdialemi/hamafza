@@ -1,0 +1,10 @@
+package ir.co.realtime.disaster.register.validation;
+
+@SuppressWarnings("serial")
+public class EmailExistsException extends Throwable {
+
+    public EmailExistsException(final String message) {
+        super(message);
+    }
+
+}

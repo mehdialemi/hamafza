@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="XmsRequest">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="requestData" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="XmsRequestResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="XmsRequestResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="XmsRequestSoapIn">
+    <wsdl:part name="parameters" element="tns:XmsRequest" />
+  </wsdl:message>
+  <wsdl:message name="XmsRequestSoapOut">
+    <wsdl:part name="parameters" element="tns:XmsRequestResponse" />
+  </wsdl:message>
+  <wsdl:portType name="SmsSoap">
+    <wsdl:operation name="XmsRequest">
+      <wsdl:input message="tns:XmsRequestSoapIn" />
+      <wsdl:output message="tns:XmsRequestSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="SmsSoap" type="tns:SmsSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="XmsRequest">
+      <soap:operation soapAction="http://tempuri.org/XmsRequest" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="SmsSoap12" type="tns:SmsSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="XmsRequest">
+      <soap12:operation soapAction="http://tempuri.org/XmsRequest" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Sms">
+    <wsdl:port name="SmsSoap" binding="tns:SmsSoap">
+      <soap:address location="http://ws.smartsms.ir/sms.asmx" />
+    </wsdl:port>
+    <wsdl:port name="SmsSoap12" binding="tns:SmsSoap12">
+      <soap12:address location="http://ws.smartsms.ir/sms.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

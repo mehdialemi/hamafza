@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: ch.vorburger.mariaDB4j:mariaDB4j-db-win32:10.1.20">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/vorburger/mariaDB4j/mariaDB4j-db-win32/10.1.20/mariaDB4j-db-win32-10.1.20.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/vorburger/mariaDB4j/mariaDB4j-db-win32/10.1.20/mariaDB4j-db-win32-10.1.20-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/ch/vorburger/mariaDB4j/mariaDB4j-db-win32/10.1.20/mariaDB4j-db-win32-10.1.20-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

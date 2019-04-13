@@ -2,155 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b4148ac-d31f-441c-8c6d-56146ccbbc26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_jsonwebtoken_jjwt_0_9_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/AuditingConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/WebMvcConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationEntryPoint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtTokenProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/UserPrincipal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CurrentUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/DateAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/LoginRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PrivilegeType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/RoleName.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/SignUpRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserDateAudit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserIdentityAvailability.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/RoleRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/InitialDataLoader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/VerificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/DelegatingXMLStreamWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/NoNamesWriter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/SmsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/XmsRequestEntity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/AppException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/util/RandomCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geolatte_geolatte_geom_1_2_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_entitymanager_5_2_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_spatial_5_2_12_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_spec_javax_transaction_jboss_transaction_api_1_2_spec_1_0_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_postgresql_postgresql_42_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/Chart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/Request.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/Report.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/disaster_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/disaster_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_ua_parser_uap_java_1_4_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_maxmind_db_maxmind_db_1_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_maxmind_geoip2_geoip2_2_12_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_11.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_json_path_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_rest_assured_common_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__io_rest_assured_xml_path_3_0_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_el_el_api_2_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_jstl_1_2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_logstash_logback_logstash_logback_encoder_4_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_expression_processor_1_1_3.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__nz_net_ultraq_thymeleaf_thymeleaf_layout_dialect_2_3_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ognl_ognl_3_1_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_lang3_3_7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_10.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpmime_4_5_6.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_ccil_cowan_tagsoup_tagsoup_1_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_2_4_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_json_2_4_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_groovy_groovy_xml_2_4_15.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_aerogear_aerogear_otp_java_1_0_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_46.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_17_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_2_12_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_GA.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_20_0_GA.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/disaster.iml" beforeDir="false" afterPath="$PROJECT_DIR$/disaster.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/links" beforeDir="false" afterPath="$PROJECT_DIR$/links" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/CaptchaService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/CaptchaSettings.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/GoogleResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/ReCaptchaAttemptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/RegistrationCaptchaController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/DeviceMetadataRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/PasswordResetTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/PrivilegeRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/PrivilegeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/PrivilegeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/dao/VerificationTokenRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/DeviceMetadata.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/PasswordResetToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/Privilege.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/persistence/model/VerificationToken.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/registration/OnRegistrationCompleteEvent.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/registration/listener/RegistrationListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/ActiveUserStore.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/AuthenticationFailureListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/AuthenticationSuccessEventListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/CustomAuthenticationFailureHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/CustomRememberMeServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/ISecurityUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/LoggedUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/LoginAttemptService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/MyCustomLoginAuthenticationSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/MyLogoutSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/MySimpleUrlAuthenticationSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/MyUserDetailsService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/UserSecurityService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/google2fa/CustomAuthenticationProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/google2fa/CustomWebAuthenticationDetails.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/security/google2fa/CustomWebAuthenticationDetailsSource.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/service/DeviceService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/service/IUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/AppConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/CaptchaConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/LoginNotificationConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/MvcConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/PersistenceJPAConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/SecSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/ServiceConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/SetupDataLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/SpringTaskConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/task/TokensPurgeTask.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/EmailExistsException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/EmailValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/PasswordConstraintValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/PasswordMatches.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/PasswordMatchesValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/UserValidator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/ValidEmail.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/validation/ValidPassword.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/controller/OldRegistrationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/controller/RegistrationController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/dto/PasswordDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/dto/UserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/InvalidOldPasswordException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/ReCaptchaInvalidException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/ReCaptchaUnavailableException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/RestResponseEntityExceptionHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/UserAlreadyExistException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/error/UserNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/web/util/GenericResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/messages_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/changePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/changePassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/customLogin.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/customLogin.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/forgetPassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/forgetPassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/loginRememberMe.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/loginRememberMe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registrationCaptcha.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registrationCaptcha.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/updatePassword.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/updatePassword.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/webSecurityConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/webSecurityConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/resources/pwstrength.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserProfile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -172,41 +55,43 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="MF" value="1" />
-          <entry key="class" value="1" />
-          <entry key="gitignore" value="1" />
-          <entry key="java" value="213" />
+          <entry key="class" value="3" />
+          <entry key="gitignore" value="2" />
+          <entry key="java" value="310" />
           <entry key="js" value="1" />
-          <entry key="links" value="2" />
-          <entry key="properties" value="10" />
-          <entry key="xml" value="9" />
+          <entry key="links" value="3" />
+          <entry key="properties" value="13" />
+          <entry key="xml" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="Git file" value="1" />
-          <entry key="JAVA" value="213" />
+          <entry key="CLASS" value="3" />
+          <entry key="Git file" value="2" />
+          <entry key="JAVA" value="310" />
           <entry key="JavaScript" value="1" />
           <entry key="Manifest" value="1" />
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="10" />
-          <entry key="XML" value="9" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="13" />
+          <entry key="XML" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1006" />
-          <entry key="links" value="23" />
-          <entry key="properties" value="18" />
-          <entry key="xml" value="68" />
+          <entry key="dummy" value="34" />
+          <entry key="java" value="5568" />
+          <entry key="links" value="33" />
+          <entry key="properties" value="59" />
+          <entry key="xml" value="237" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1006" />
-          <entry key="PLAIN_TEXT" value="23" />
-          <entry key="Properties" value="18" />
-          <entry key="XML" value="68" />
+          <entry key="JAVA" value="5567" />
+          <entry key="PLAIN_TEXT" value="67" />
+          <entry key="Properties" value="59" />
+          <entry key="Spring Data QL" value="1" />
+          <entry key="XML" value="237" />
         </counts>
       </usages-collector>
     </session>
@@ -214,58 +99,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CurrentUser.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="486">
+              <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/DateAudit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/LoginRequest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/Report.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            <state relative-caret-position="480">
+              <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -274,40 +123,124 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PrivilegeType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/InitialDataLoader.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="397">
-              <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/RoleName.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/ResourceNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/PrivilegeRepository.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+            <state relative-caret-position="90">
+              <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/VerificationCodeException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/BadRequestException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#300#301#0" expanded="true" />
+                <element signature="e#323#324#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportRequest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#195#196#0" expanded="true" />
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#311#312#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#422#423#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#522#523#0" expanded="true" />
+                <element signature="e#567#568#0" expanded="true" />
+                <element signature="e#603#604#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="411">
+              <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
+                <element signature="e#472#473#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#650#651#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#184#185#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#222#223#0" expanded="true" />
+                <element signature="e#275#276#0" expanded="true" />
+                <element signature="e#313#314#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#370#371#0" expanded="true" />
+                <element signature="e#409#410#0" expanded="true" />
+                <element signature="e#443#444#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -317,8 +250,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -344,57 +278,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/service/IUserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/SecSecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/ReCaptchaAttemptService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/RegistrationCaptchaController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/CaptchaService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/AppConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/PersistenceJPAConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/registration/listener/RegistrationListener.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationEntryPoint.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CurrentUser.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/ResourceNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/AuditingConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/WebMvcConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtTokenProvider.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/RoleRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/UserRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/DateAudit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserDateAudit.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/LoginRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/ApiResponse.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/AppException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/SignUpRequest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserIdentityAvailability.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserProfile.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/util/RandomCodeGenerator.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/ActivationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/DelegatingXMLStreamWriter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/EmailService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/PasswordResetService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/ResetType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/ResetPasswordType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/VerificationService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/UserPrincipal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/SecurityConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/RoleName.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PrivilegeType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/InitialDataLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/PrivilegeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/VerificationCodeExpired.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/InvalidVerificationCodeExpired.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/VerificationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/RoleRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/InitialDataLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/ApiResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/VerificationCodeException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/ReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/ChartType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/Card.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/chart/LineChart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/chart/Chart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/Report.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/ReportController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/Chart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/Report.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/Chart.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/WarningMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/RealtimeMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/model/RealtimeMessage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/PeopleReport.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/PeopleReport.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/links" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java" />
         <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/Report.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/Request.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportRequest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/BadRequestException.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportResponse.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsService.java" />
       </list>
     </option>
   </component>
@@ -477,6 +411,16 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="disaster" type="462c0819:PsiDirectoryNode" />
               <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disaster-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="disaster" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -496,8 +440,41 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="disaster" type="462c0819:PsiDirectoryNode" />
-              <item name="auth" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="chart" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disaster-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="disaster" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disaster-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="disaster" type="462c0819:PsiDirectoryNode" />
+              <item name="exception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disaster-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="disaster" type="462c0819:PsiDirectoryNode" />
+              <item name="news" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
+              <item name="disaster-repo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="disaster" type="b2602c69:ProjectViewProjectNode" />
@@ -535,7 +512,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555167342125" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555185971209" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../spring-security-registration-master" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -545,10 +522,10 @@
       <recent name="ir.co.realtime.disaster" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ir.co.realtime.disaster.auth.service" />
       <recent name="ir.co.realtime.disaster.auth.repository" />
       <recent name="ir.co.realtime.disaster.auth.model" />
       <recent name="ir.co.realtime.disaster.exception" />
-      <recent name="ir.co.realtime.disaster.auth.service" />
       <recent name="ir.co.realtime.disaster.auth.jwt" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -590,18 +567,17 @@
       <option name="presentableId" value="Default" />
       <updated>1554968537663</updated>
       <workItem from="1554968541842" duration="7901000" />
-      <workItem from="1555158679602" duration="8082000" />
+      <workItem from="1555158679602" duration="24016000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15983000" />
+    <option name="totallyTimeSpent" value="31917000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="25" width="1297" height="743" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -642,359 +618,184 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsController.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/LoginNotificationConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/jdbc/JDBCCategoryDataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        <state relative-caret-position="119">
+          <caret line="92" column="13" selection-start-line="92" selection-start-column="13" selection-end-line="92" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/PersistenceJPAConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/chart/editor/ChartEditorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="40" column="77" selection-start-line="40" selection-start-column="77" selection-end-line="40" selection-end-column="77" />
+        <state relative-caret-position="128">
+          <caret line="47" column="17" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/chart/editor/DefaultChartEditorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/general/AbstractDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="79" column="57" selection-start-line="79" selection-start-column="57" selection-end-line="79" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/category/CategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="64" column="17" selection-start-line="64" selection-start-column="17" selection-end-line="64" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/gantt/TaskSeriesCollection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-907">
+          <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/gantt/SlidingGanttCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-960">
+          <caret line="58" column="13" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/category/DefaultIntervalCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="69" column="13" selection-start-line="69" selection-start-column="13" selection-end-line="69" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/category/DefaultCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="62" column="13" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
           <folding>
-            <element signature="e#1346#1347#0" expanded="true" />
-            <element signature="e#1369#1370#0" expanded="true" />
+            <element signature="e#2851#2852#0" expanded="true" />
+            <element signature="e#2905#2906#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/registration/listener/RegistrationListener.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/statistics/DefaultStatisticalCategoryDataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="128">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/statistics/MultiValueCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/category/SlidingCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/general/KeyedValues2DDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="50" column="17" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/statistics/DefaultBoxAndWhiskerCategoryDataset.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="72" column="13" selection-start-line="72" selection-start-column="13" selection-end-line="72" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/RegistrationCaptchaController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/CardBody.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="47" column="51" selection-start-line="47" selection-start-column="51" selection-end-line="47" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="30">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/spring/MvcConfig.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jfree/jfreechart/1.5.0/jfreechart-1.5.0-sources.jar!/org/jfree/data/general/DefaultKeyedValues2DDataset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1290">
-          <caret line="110" column="37" selection-start-line="110" selection-start-column="37" selection-end-line="110" selection-end-column="37" />
+        <state relative-caret-position="195">
+          <caret line="55" column="29" selection-start-line="55" selection-start-column="29" selection-end-line="55" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/register/captcha/CaptchaService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/report/GovernmentReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="23" column="4" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/links">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="81" selection-start-column="81" selection-end-column="81" />
+        <state relative-caret-position="30">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
+        <state relative-caret-position="501">
+          <caret line="75" column="38" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/ResourceNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/RoleRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/UserRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.0.7.RELEASE/spring-security-core-5.0.7.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserDateAudit.java">
+    <entry file="file://$PROJECT_DIR$/links">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/ApiResponse.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/SignUpRequest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1132#1133#0" expanded="true" />
-            <element signature="e#1180#1181#0" expanded="true" />
-            <element signature="e#1220#1221#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserIdentityAvailability.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/util/RandomCodeGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/SmsService.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/NoNamesWriter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/XmsRequestEntity.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/sms/DelegatingXMLStreamWriter.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3852#3853#0" expanded="true" />
-            <element signature="e#3889#3890#0" expanded="true" />
-            <element signature="e#3950#3951#0" expanded="true" />
-            <element signature="e#4002#4003#0" expanded="true" />
-            <element signature="e#4044#4045#0" expanded="true" />
-            <element signature="e#4082#4083#0" expanded="true" />
-            <element signature="e#4145#4146#0" expanded="true" />
-            <element signature="e#4199#4200#0" expanded="true" />
-            <element signature="e#4264#4265#0" expanded="true" />
-            <element signature="e#4293#4294#0" expanded="true" />
-            <element signature="e#4337#4338#0" expanded="true" />
-            <element signature="e#4373#4374#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/AppException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/EmailService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="495">
+          <caret line="33" column="44" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserProfile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/ResetType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/ResetPasswordType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/PasswordResetService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/VerificationService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2151">
-          <caret line="144" column="63" selection-start-line="144" selection-start-column="63" selection-end-line="144" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1468#1620#0" expanded="true" />
-            <element signature="e#1619#1620#0" expanded="true" />
-            <element signature="e#1879#2077#0" expanded="true" />
-            <element signature="e#2076#2077#0" expanded="true" />
-            <element signature="e#4274#4275#0" expanded="true" />
-            <element signature="e#4314#4315#0" expanded="true" />
-            <element signature="e#4371#4372#0" expanded="true" />
-            <element signature="e#4421#4422#0" expanded="true" />
-            <element signature="e#4459#4460#0" expanded="true" />
-            <element signature="e#4497#4498#0" expanded="true" />
-            <element signature="e#4547#4548#0" expanded="true" />
-            <element signature="e#4593#4594#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/AuditingConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="411">
-          <caret line="35" column="10" lean-forward="true" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/SecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="39" column="25" lean-forward="true" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1830#1831#0" expanded="true" />
-            <element signature="e#1882#1883#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/config/WebMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="1" selection-start-line="18" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="172">
-          <caret line="29" column="29" lean-forward="true" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="21" column="70" selection-start-line="21" selection-start-column="70" selection-end-line="21" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="21" column="10" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtAuthenticationResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/JwtTokenProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-225">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/jwt/UserPrincipal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="25" selection-start-line="33" selection-start-column="25" selection-end-line="33" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2650#2651#0" expanded="true" />
-            <element signature="e#2675#2676#0" expanded="true" />
-            <element signature="e#2709#2710#0" expanded="true" />
-            <element signature="e#2737#2738#0" expanded="true" />
-            <element signature="e#2826#2827#0" expanded="true" />
-            <element signature="e#2857#2858#0" expanded="true" />
-            <element signature="e#2905#2906#0" expanded="true" />
-            <element signature="e#2945#2946#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CurrentUser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="60">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/CustomUserDetailsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="12" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1015,48 +816,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="240">
+          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#695#696#0" expanded="true" />
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#796#797#0" expanded="true" />
+            <element signature="e#846#847#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/RoleName.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PasswordReset.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/PrivilegeType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="29" selection-start-line="6" selection-start-column="29" selection-end-line="6" selection-end-column="29" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/service/InitialDataLoader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Role.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="397">
-          <caret line="76" column="57" selection-start-line="76" selection-start-column="57" selection-end-line="76" selection-end-column="57" />
+        <state relative-caret-position="240">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/repository/PrivilegeRepository.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserDateAudit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="65" lean-forward="true" selection-start-line="6" selection-start-column="65" selection-end-line="6" selection-end-column="65" />
+        <state relative-caret-position="135">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/Privilege.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/model/UserIdentityAvailability.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/auth/controller/AuthController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-248">
+          <caret line="66" column="18" lean-forward="true" selection-start-line="66" selection-start-column="18" selection-end-line="66" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/Chart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="12" selection-start-line="12" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1278#1279#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1365#1366#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/chart/ChartService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/common/Request.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+            <element signature="e#183#184#0" expanded="true" />
+            <element signature="e#232#233#0" expanded="true" />
+            <element signature="e#276#277#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+            <element signature="e#339#340#0" expanded="true" />
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#424#425#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#572#573#0" expanded="true" />
+            <element signature="e#614#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/AppException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/ResourceNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/UserNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/BadRequestException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#300#301#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/exception/VerificationCodeException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/RealtimeMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/WarningMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#195#196#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#522#523#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#603#604#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="411">
+          <caret line="28" column="44" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#650#651#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/ReportResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#184#185#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#222#223#0" expanded="true" />
+            <element signature="e#275#276#0" expanded="true" />
+            <element signature="e#313#314#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#370#371#0" expanded="true" />
+            <element signature="e#409#410#0" expanded="true" />
+            <element signature="e#443#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/NewsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="43" column="16" selection-start-line="43" selection-start-column="16" selection-end-line="43" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ir/co/realtime/disaster/news/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="32" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -4,6 +4,7 @@ import javax.persistence.*;
 import java.util.Collection;
 
 @Entity
+@Table
 public class Privilege {
 
     @Id
@@ -13,7 +14,7 @@ public class Privilege {
     @Enumerated
     private PrivilegeType privilegeType;
 
-    @ManyToMany(mappedBy = "privileges")
+    @ManyToMany(mappedBy = "privilege")
     private Collection <Role> roles;
 
     public Privilege() {

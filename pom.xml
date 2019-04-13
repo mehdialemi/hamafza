@@ -12,7 +12,7 @@
     <groupId>ir.co.realtime</groupId>
     <artifactId>disaster</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <firstName>disaster-repo</firstName>
+    <name>disaster-repo</name>
     <description>Disaster Data Collection and Reporting</description>
 
     <properties>
@@ -27,6 +27,9 @@
         <uap-java.version>1.4.0</uap-java.version>
         <geoip2.version>2.12.0</geoip2.version>
         <jjwt.version>0.9.0</jjwt.version>
+        <mysql.version>6.0.6</mysql.version>
+        <hibernate.version>5.2.12.Final</hibernate.version>
+        <mariadb.version>2.2.3</mariadb.version>
     </properties>
 
     <dependencies>
@@ -55,29 +58,41 @@
             <version>${jjwt.version}</version>
         </dependency>
 
-        <!-- Password Validation -->
-        <dependency>
-            <groupId>org.passay</groupId>
-            <artifactId>passay</artifactId>
-            <version>${passay.version}</version>
-        </dependency>
-
-        <!-- Spring Data JPA dependencies -->
+        <!-- Database -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
-        <!-- DB dependencies -->
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
+            <version>${mysql.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>ch.vorburger.mariaDB4j</groupId>
+            <artifactId>mariaDB4j</artifactId>
+            <version>${mariadb.version}</version>
+        </dependency>
+
 
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
             <version>${guava.version}</version>
+        </dependency>
+
+        <!-- Location -->
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-entitymanager</artifactId>
+            <version>${hibernate.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.hibernate</groupId>
+            <artifactId>hibernate-spatial</artifactId>
+            <version>${hibernate.version}</version>
         </dependency>
 
         <!-- TEST -->

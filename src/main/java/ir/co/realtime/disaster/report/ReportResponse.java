@@ -1,4 +1,4 @@
-package ir.co.realtime.disaster.news;
+package ir.co.realtime.disaster.report;
 
 import java.util.ArrayList;
 import java.util.List;

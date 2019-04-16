@@ -1,10 +1,12 @@
-package ir.co.realtime.disaster.news;
+package ir.co.realtime.disaster.report;
 
 import com.vividsolutions.jts.geom.Point;
 import ir.co.realtime.disaster.auth.model.DateAudit;
+import ir.co.realtime.disaster.file.Image;
+import ir.co.realtime.disaster.file.Video;
 
 import javax.persistence.*;
-import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table
@@ -19,7 +21,13 @@ public class Report extends DateAudit {
 
     private String message;
 
-    private List<String> tags;
+    private String tags;
+
+    @OneToMany
+    private Set<Image> images;
+
+    @OneToMany
+    private Set<Video> videos;
 
     @Enumerated
     private Source source;
@@ -88,14 +96,6 @@ public class Report extends DateAudit {
         this.subject = subject;
     }
 
-    public List <String> getTags() {
-        return tags;
-    }
-
-    public void setTags(List <String> tags) {
-        this.tags = tags;
-    }
-
     public int getWarningThreshold() {
         return warningThreshold;
     }
@@ -104,7 +104,31 @@ public class Report extends DateAudit {
         this.warningThreshold = warningThreshold;
     }
 
-    enum Source {
+    public Set <Image> getImages() {
+        return images;
+    }
+
+    public void setImages(Set <Image> images) {
+        this.images = images;
+    }
+
+    public Set <Video> getVideos() {
+        return videos;
+    }
+
+    public void setVideos(Set <Video> videos) {
+        this.videos = videos;
+    }
+
+    public String getTags() {
+        return tags;
+    }
+
+    public void setTags(String tags) {
+        this.tags = tags;
+    }
+
+    public enum Source {
         GOVERNMENT,
         LOCAL
     }

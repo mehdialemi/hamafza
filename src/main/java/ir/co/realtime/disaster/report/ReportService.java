@@ -1,4 +1,4 @@
-package ir.co.realtime.disaster.news;
+package ir.co.realtime.disaster.report;
 
 import ir.co.realtime.disaster.exception.BadRequestException;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,18 +11,18 @@ import java.time.Instant;
 import java.util.List;
 
 @Service
-public class NewsService {
+public class ReportService {
 
     @Autowired
-    private NewsRepository repository;
+    private ReportRepository repository;
 
-    @Value("${news.recent.period.millis}")
+    @Value("${report.recent.period.millis}")
     private long delay;
 
-    @Value("${news.warning.threshold}")
+    @Value("${report.warning.threshold}")
     private int warningThreshold;
 
-    @Value("${news.warning.limit")
+    @Value("${report.warning.limit}")
     private int warningLimit;
 
     public ReportResponse recentNews() {

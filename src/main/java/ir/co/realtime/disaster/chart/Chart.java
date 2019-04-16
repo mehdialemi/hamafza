@@ -6,8 +6,6 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-@Entity
-@Table
 public class Chart<T extends Comparable> implements Serializable {
 
     @Id

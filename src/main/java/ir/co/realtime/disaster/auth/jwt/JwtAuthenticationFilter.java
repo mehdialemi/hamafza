@@ -1,6 +1,6 @@
 package ir.co.realtime.disaster.auth.jwt;
 
-import ir.co.realtime.disaster.auth.model.CustomUserDetailsService;
+import ir.co.realtime.disaster.auth.service.CustomUserDetailsService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

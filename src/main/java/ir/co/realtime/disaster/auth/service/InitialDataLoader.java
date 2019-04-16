@@ -4,6 +4,8 @@ import ir.co.realtime.disaster.auth.model.*;
 import ir.co.realtime.disaster.auth.repository.PrivilegeRepository;
 import ir.co.realtime.disaster.auth.repository.RoleRepository;
 import ir.co.realtime.disaster.auth.repository.UserRepository;
+import ir.co.realtime.disaster.report.Report;
+import ir.co.realtime.disaster.report.ReportRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.ApplicationListener;
@@ -34,6 +36,8 @@ public class InitialDataLoader implements ApplicationListener<ContextRefreshedEv
     @Autowired
     private PasswordEncoder passwordEncoder;
 
+    @Autowired
+    private ReportRepository reportRepository;
 
     @Autowired
     private PrivilegeRepository privilegeRepository;
@@ -56,15 +60,14 @@ public class InitialDataLoader implements ApplicationListener<ContextRefreshedEv
         createRoleIfNotFound(RoleName.ROLE_USER, userPrivileges);
         createRoleIfNotFound(RoleName.ROLE_OPERATOR, adminPrivileges);
 
-        createAdmin(adminRole);
-
+        createAdminIfNotFound(adminRole);
+        createReportIfNotExist();
         alreadySetup = true;
     }
 
-
     @Transactional
     Privilege createPrivilegeIfNotFound(final PrivilegeType privilegeType) {
-        Privilege privilege = privilegeRepository.findByName(privilegeType);
+        Privilege privilege = privilegeRepository.findByPrivilegeType(privilegeType);
         if (privilege == null) {
             privilege = new Privilege(privilegeType);
             privilege = privilegeRepository.save(privilege);
@@ -82,12 +85,19 @@ public class InitialDataLoader implements ApplicationListener<ContextRefreshedEv
     }
 
     @Transactional
-    User createAdmin(Role role) {
-        User user = new User(adminUsername);
+    User createAdminIfNotFound(Role role) {
+        Optional <User> byUsername = userRepository.findByUsername(adminUsername);
+        User user = byUsername.orElse(new User(adminUsername));
         user.setPassword(passwordEncoder.encode(adminPassword));
         user.setRoles(Collections.singleton(role));
-        userRepository.save(user);
-        return user;
+        return userRepository.save(user);
+    }
+
+    void createReportIfNotExist() {
+        Optional <Report> byId = reportRepository.findById(1L);
+        Report report  = byId.orElse(new Report());
+        report.setSource(Report.Source.GOVERNMENT);
+        reportRepository.save(report);
     }
 
     public String getAdminUsername() {

@@ -1,6 +1,7 @@
-package ir.co.realtime.disaster.auth.model;
+package ir.co.realtime.disaster.auth.service;
 
 import ir.co.realtime.disaster.auth.jwt.UserPrincipal;
+import ir.co.realtime.disaster.auth.model.User;
 import ir.co.realtime.disaster.auth.repository.UserRepository;
 import ir.co.realtime.disaster.exception.ResourceNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

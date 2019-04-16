@@ -1,10 +1,6 @@
-package ir.co.realtime.disaster.news;
+package ir.co.realtime.disaster.report;
 
 import ir.co.realtime.disaster.common.Request;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
-
-import java.awt.print.Pageable;
 
 public class ReportRequest extends Request {
     private Report.Source source;

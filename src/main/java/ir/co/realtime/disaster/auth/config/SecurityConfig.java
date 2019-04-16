@@ -2,7 +2,7 @@ package ir.co.realtime.disaster.auth.config;
 
 import ir.co.realtime.disaster.auth.jwt.JwtAuthenticationEntryPoint;
 import ir.co.realtime.disaster.auth.jwt.JwtAuthenticationFilter;
-import ir.co.realtime.disaster.auth.model.CustomUserDetailsService;
+import ir.co.realtime.disaster.auth.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -7,7 +7,7 @@ import org.springframework.data.domain.Sort;
 public class Request {
     private int pageNumber;
     private int pageSize;
-    private String sortField = "createdAt";
+    private String sortField = "created_at";
     private String order = "DESC";
 
     public int getPageNumber() {

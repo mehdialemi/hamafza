@@ -1,29 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- For assistance related to logback-translator or configuration  -->
+<!-- files in general, please contact the logback user mailing list -->
+<!-- at http://www.qos.ch/mailman/listinfo/logback-user             -->
+<!--                                                                -->
+<!-- For professional support please see                            -->
+<!--    http://www.qos.ch/shop/products/professionalSupport         -->
+<!--                                                                -->
 <configuration>
 
-    <conversionRule conversionWord="stack" converterClass="net.logstash.logback.stacktrace.ShortenedThrowableConverter" />
-    
-	<appender firstName="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
-			 <pattern>
-			     web - %date [%thread] %-5level %logger{5} - %message%n%stack{5,1}
-			</pattern>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
 		</encoder>
-		
 	</appender>
 
-	<logger firstName="ir.co.realtime.disaster" level="DEBUG" />
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+			<!-- Daily rollover -->
+			<fileNamePattern>log/disaster.%d{yyyy-MM-dd}.log</fileNamePattern>
 
-	<!-- to view SQL statements, change to DEBUG -->
-	<logger firstName="org.hibernate.SQL" level="WARN" />
+			<!-- Keep 7 days' worth of history -->
+			<maxHistory>7</maxHistory>
+		</rollingPolicy>
 
-	<logger firstName="org.springframework" level="WARN" />
-	<logger firstName="org.springframework.transaction" level="WARN" />
+		<encoder>
+			<pattern>%d{HH:mm:ss.SSS} [%thread] %-5level %logger{36} - %msg%n</pattern>
+		</encoder>
+	</appender>
 
-	<!-- in order to debug some marshalling issues, this needs to be TRACE -->
-	<logger firstName="org.springframework.web.servlet.mvc" level="WARN" />
+	<!--<logger name="org.hibernate.operation" level="DEBUG" />-->
+	<!--<logger name="org.hibernate" level="DEBUG" />-->
+	<!--<logger name="org.hibernate.SQL" level="DEBUG" />-->
+	<!--<logger name="org.hibernate.cache" level="DEBUG" />-->
+	<!--<logger name="org.ehcache" level="DEBUG" />-->
 
+	<!-- Configure so that it outputs to both console and log file -->
 	<root level="INFO">
+		<!--<appender-ref ref="FILE" />-->
 		<appender-ref ref="STDOUT" />
 	</root>
-
 </configuration>

@@ -16,7 +16,7 @@ public class User extends DateAudit {
 
     @Id
     @Column(unique = true, nullable = false)
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String firstName;
@@ -38,9 +38,8 @@ public class User extends DateAudit {
 
     private boolean mobileConfirmed;
 
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(name = "users_roles", joinColumns = @JoinColumn(name = "user_id", referencedColumnName = "id"),
-            inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
+    @ManyToMany
+    @JoinTable
     private Collection<Role> roles;
 
     public User() {

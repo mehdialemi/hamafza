@@ -8,13 +8,13 @@ import java.util.Collection;
 public class Privilege {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     @Enumerated
     private PrivilegeType privilegeType;
 
-    @ManyToMany(mappedBy = "privilege")
+    @ManyToMany
     private Collection <Role> roles;
 
     public Privilege() {
